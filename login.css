@@ -1,0 +1,139 @@
+*{
+  box-sizing:border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background: linear-gradient(135deg,#667eea,#764ba2);
+}
+
+.login-box{
+  background:#fff;
+  padding:25px;
+  width:320px;
+  border-radius:10px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.login-box h2{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.login-box input{
+  width:100%;
+  padding:12px;
+  margin-bottom:12px;
+  border:1px solid #ccc;
+  border-radius:6px;
+}
+
+.login-box input:focus{
+  border-color:#667eea;
+  outline:none;
+}
+
+.login-box button{
+  width:100%;
+  padding:12px;
+  background:#667eea;
+  border:none;
+  color:white;
+  font-size:16px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.login-box button:hover{
+  background:#5a67d8;
+}
+
+#msg{
+  margin-top:15px;
+  text-align:center;
+  font-size:14px;
+}
+
+.success{ color:green; }
+.error{ color:red; }
+
+
+
+#Loding {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% ,-50%);
+  background-color: #0000002b;
+}
+
+#Loding .child{
+  width: 100%;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  
+}
+#Loding .child1 {
+  width: 4rem;
+  border-top: 2px solid #936dd9;
+  animation: spin1 2s linear infinite;
+}
+
+#Loding .child2 {
+  width: 5rem;
+  border-left: 3px solid #bc54d4;
+  animation: spin2 3s linear infinite;
+}
+#Loding .child3 {
+  width: 6rem;
+  border-bottom: 4px solid #ff04ff;
+  animation: spin3 4s linear infinite;
+}
+#Loding .child4 {
+  width: 7rem;
+  border-bottom: 4px solid #6803ed;
+  animation: spin3 6s linear infinite;
+}
+#Loding .child5 {
+  width: 3rem;
+  font-size: 1rem;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+}
+
+@keyframes spin1 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes spin2 {
+  100% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  0% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes spin3 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

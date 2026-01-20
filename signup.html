@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <div class="signup-box">
+      <h2>Create Account</h2>
+      <img id="preview" src="" alt="">
+
+      <input id="userid" class="user-input" placeholder="User ID">
+      <!-- <small id="userid-msg"></small> -->
+
+      <input id="name" class="user-input" placeholder="Full Name">
+      <!-- <small id="name-msg"></small> -->
+
+      <!-- <small id="email-msg"></small> -->
+      
+      <input id="mobile" class="user-input" placeholder="Mobile">
+      <!-- <small id="mobile-msg"></small> -->
+      
+      <input id="city" class="user-input" placeholder="City">
+      <!-- <small id="city-msg"></small> -->
+      
+      <input id="password" class="user-input" type="password" placeholder="Password">
+      <!-- <small id="password-msg"></small> -->
+      
+      <input id="photo" class="user-input" type="file">
+      <!-- <small id="photo-msg"></small> -->
+      <input id="email" class="user-input" type="email" placeholder="Email">
+      <button id="SendOtpBtn" onclick="requestOTP()">Send OTP</button>
+
+      <input id="OTP" class="user-input" placeholder="Enter OTP">
+
+      <button id="signupBtn">Sign Up</button>
+      <p id="msg"></p>
+
+      <button class="login-btn" onclick="goToLogin()">
+        Already have account? Login
+      </button>
+
+      <p id="msg"></p>
+
+      <div id="Loding">
+        <div class="child1 child"></div>
+        <div class="child2 child"></div>
+        <div class="child3 child"></div>
+        <div class="child4 child"></div>
+        <div class="child5 child"><p>Please Wait</p></div>   
+    </div>
+
+    </div>
+
+    <script src="signup.js"></script>
+  </body>
+</html>
