@@ -1,6 +1,6 @@
 // 🔥 SAME API URL that you used for signup
-const API_URL = "https://script.google.com/macros/s/AKfycbzjvB8qXhwQCub3aCOBJSxOBJyxsrtHvcHIiX44Wg_rZ-KXeuBRsH1y2i932ddNBhcL/exec"; // Apps Script Web App URL
-// const API_URL = "https://script.google.com/macros/s/AKfycbzM0z2vExs3PQ8tcmccdjYmdQOHWXbGhmEhUk5xfctxcCgsqQrlS48NKhBXPPL48A5_/exec" // NGC
+// const API_URL = "https://script.google.com/macros/s/AKfycbzjvB8qXhwQCub3aCOBJSxOBJyxsrtHvcHIiX44Wg_rZ-KXeuBRsH1y2i932ddNBhcL/exec"; // Apps Script Web App URL
+const API_URL = "https://script.google.com/macros/s/AKfycbzM0z2vExs3PQ8tcmccdjYmdQOHWXbGhmEhUk5xfctxcCgsqQrlS48NKhBXPPL48A5_/exec" // NGC
 
 const msg = document.getElementById("msg");
 document.getElementById("loginBtn").addEventListener("click", login);
@@ -64,5 +64,6 @@ function login(){
   });
 
 }
+
 
 
