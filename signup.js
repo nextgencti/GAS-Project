@@ -1,5 +1,6 @@
 // const API_URL = "https://script.google.com/macros/s/AKfycbzjvB8qXhwQCub3aCOBJSxOBJyxsrtHvcHIiX44Wg_rZ-KXeuBRsH1y2i932ddNBhcL/exec" // My Account
 const API_URL = "https://script.google.com/macros/s/AKfycbzM0z2vExs3PQ8tcmccdjYmdQOHWXbGhmEhUk5xfctxcCgsqQrlS48NKhBXPPL48A5_/exec" // NGC
+const API_URL = "https://script.google.com/macros/s/AKfycbzM0z2vExs3PQ8tcmccdjYmdQOHWXbGhmEhUk5xfctxcCgsqQrlS48NKhBXPPL48A5_/exec"
 
 
 var Londing =document.querySelector('#Loding')
@@ -165,5 +166,6 @@ function requestOTP() {
   .then(res => res.json())
   .then(data => alert(data.message));
 }
+
 
 
